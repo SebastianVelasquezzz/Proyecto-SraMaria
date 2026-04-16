@@ -1,0 +1,87 @@
+Aquí tienes tu PRD adaptado exactamente a ese formato 👇
+
+```
+# Sistema de Registro de Ventas
+### Proyecto en equipo - Clase de Programación
+**Docente:** Henry Ortegon | by Kyrbot.com
+---
+## Integrantes del grupo
+- Estudiante 1 (Líder): [Sebastian Velasquez]
+- Estudiante 2: [Kelly Sanchez]
+- Estudiante 3: [Sebastian Morales]
+---
+## Resumen del Producto
+Sistema enfocado en registrar ventas y gestionar pagos en una tienda de abarrotes. 
+Permite llevar control de ingresos diarios y de clientes con deudas pendientes mediante un registro digital sencillo.
+
+---
+## Objetivos
+- Registrar ventas de forma rápida y sencilla  
+- Controlar clientes con deudas  
+- Consultar ventas anteriores  
+- Calcular ingresos diarios automáticamente  
+
+---
+## Tipos de Usuario
+- Vendedor: registra las ventas  
+- Propietaria: consulta ingresos y estado general  
+- Cobrador: gestiona pagos de deudas  
+
+---
+## Funcionalidades del Sistema
+- Registrar ventas con producto, cantidad, precio y cliente  
+- Definir tipo de pago (contado, parcial o fiado)  
+- Generar deudas automáticamente  
+- Registrar pagos realizados por clientes  
+- Consultar lista de deudores  
+- Buscar ventas por fecha o cliente  
+- Calcular ingresos diarios  
+
+---
+## Modelo de Datos
+- Venta: producto, cantidad, precio_unitario, cliente, tipo_pago  
+- Cliente: nombre, saldo_pendiente  
+- Pago: cliente, monto, fecha  
+
+---
+## Casos de Uso
+- Registrar una venta pagada completamente  
+- Registrar una venta con deuda  
+- Registrar un pago de deuda  
+- Consultar clientes deudores  
+- Buscar ventas anteriores  
+
+---
+## Requisitos No Funcionales
+- Interfaz fácil de usar  
+- Registro rápido de ventas  
+- Persistencia de datos  
+- Validación de entradas  
+
+---
+## Criterios de Aceptación
+- Registro correcto de ventas  
+- Control adecuado de deudas  
+- Actualización de pagos funcional  
+- Consulta de información disponible  
+- Cálculo correcto de ingresos  
+- Datos guardados correctamente  
+
+---
+## Alcance y Limitaciones
+- No incluye control de inventario  
+- No permite múltiples usuarios simultáneos  
+- No genera reportes avanzados  
+- No calcula impuestos  
+
+---
+## Métricas de Éxito
+- Reducción de errores en registros  
+- Rapidez en el uso del sistema  
+- Precisión en cálculos  
+- Consistencia en los datos  
+
+---
+
+*Última actualización: [16/04/2026]*
+```
